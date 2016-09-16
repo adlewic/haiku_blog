@@ -13,7 +13,7 @@ set :database, "postgresql:app.db"
 # ============================================================
 get "/" do
   if session[:user_id]
-    redirect "/home"
+    redirect "/home"LoadError: cannot load such file -- ./environments
   else
     erb :landing1
   end
