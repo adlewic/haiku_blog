@@ -1,0 +1,14 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: haiku_blog
+  pool: 5
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: haiku_blog
+  pool: 5
+  host: localhost
