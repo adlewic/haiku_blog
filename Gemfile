@@ -11,4 +11,6 @@ group :production do
 end
 gem "rake"
 gem "sinatra-flash"
-gem uninstall activerecord —version 5.0.0
+gem "pg", :group => :production
+gem "rails_12factor", :group => :production
+# gem uninstall activerecord —version 5.0.0
