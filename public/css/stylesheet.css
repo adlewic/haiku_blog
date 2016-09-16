@@ -161,6 +161,7 @@ section#landing {
   font-family: "Replica-Regular";
   font-size: 48px;
   letter-spacing: 4px;
+  color: white;
 }
 
 #landing_box {
@@ -174,6 +175,11 @@ section#landing {
   display: inline-block;
   width: 140px;
   margin: 0 5px;
+  border: 1px solid white;
+}
+.button.enter:hover{
+
+  border: 1px solid black;
 }
 
 /* ============================================================
@@ -270,10 +276,12 @@ li:hover {
   border-bottom: solid 1px #C1C1C1;
   width: 350px;
   padding: 40px 0;
+  color: white;
 }
 
 .haiku_bottom {
   margin: 10px 0 40px 0;
+  color: white;
 }
 
 .edit_corner {
